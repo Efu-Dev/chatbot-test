@@ -565,8 +565,8 @@ select.form-control.form-custom {
 
 .btn-primary {
     color: #fff !important;
-    background-color: #1b55e2!important;
-    border-color: #1b55e2;
+    background-color: red!important;
+    border-color: red;
 }
 .btn-primary:hover,
 .btn-primary:focus {

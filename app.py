@@ -15,4 +15,4 @@ def chatbot():
 
 @app.route('/')
 def chatbot_ui():
-    return render_template(r'index.html')
+    return render_template('index.html')

@@ -22,12 +22,12 @@
     <meta name="country" content="india">
     <!-- BEGIN GLOBAL MANDATORY STYLES -->
     <link href="https://fonts.googleapis.com/css?family=Nunito:400,600,700" rel="stylesheet">
-    <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css" />
-    <link href="css/main.css" rel="stylesheet" type="text/css" />
+    <link href="{{url_for('static', filename='css/bootstrap.min.css')}}" rel="stylesheet" type="text/css" />
+    <link href="{{url_for('static', filename='css/main.css')}}" rel="stylesheet" type="text/css" />
     <!-- END GLOBAL MANDATORY STYLES -->
-    <link href="css/select2.min.css" rel="stylesheet" type="text/css"/>
-    <link href="css/chatBot.css" rel="stylesheet" type="text/css"/>
-    <link href="css/timeline.css" rel="stylesheet" type="text/css"/>
+    <link href="{{url_for('static', filename='css/select2.min.css')}}" rel="stylesheet" type="text/css"/>
+    <link href="{{url_for('static', filename='css/chatBot.css')}}" rel="stylesheet" type="text/css"/>
+    <link href="{{url_for('static', filename='css/timeline.css')}}" rel="stylesheet" type="text/css"/>
 </head>
 <body>
 <!-- Chat bot UI start -->
@@ -196,10 +196,10 @@
 <script src="https://ajax.cloudflare.com/cdn-cgi/scripts/7089c43e/cloudflare-static/rocket-loader.min.js" data-cf-settings="257be86a981729866f2fa61c-|49" defer=""></script>
 <!-- Time line Html Ends -->
 <!-- BEGIN GLOBAL MANDATORY SCRIPTS -->
-<script src="js/jquery-3.1.1.min.js"></script>
-<script src="js/popper.min.js"></script>
-<script src="js/bootstrap.min.js"></script>
-<script src="js/select2.min.js"></script>
+<script src="{{url_for('static', filename='js/jquery-3.1.1.min.js')}}"></script>
+<script src="{{url_for('static', filename='js/popper.min.js')}}"></script>
+<script src="{{url_for('static', filename='js/bootstrap.min.js')}}"></script>
+<script src="{{url_for('static', filename='js/select2.min.js')}}"></script>
  <script>
         $(document).ready(function(){
             $(".select2_el").select2({
