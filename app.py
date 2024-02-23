@@ -4,8 +4,9 @@ from flask import request, render_template
 
 app = Flask(__name__)
 
-@app.route("/chatbot", methods=["GET"])
+@app.route("/chatbot", methods=["POST"])
 def chatbot():
+    print(request.get_data())
     import chatbot
 
     message = request.json['message']
