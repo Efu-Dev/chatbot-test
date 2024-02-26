@@ -79,6 +79,7 @@
     display: inline-block;
     min-height: 382px;
     max-height: 382px;
+    overflow-y: scroll;
     background: #fbfbfb;
 }
 .chat-screen .chat-body .chat-start {
@@ -241,13 +242,6 @@
     line-height: 50px;
     cursor: pointer;
     transition: all 0.5s ease;
-}
-.chat-bot-icon img {
-    height: 90px;
-    width: 90px;
-    position: absolute;
-    right: -13px;
-    top: -33px;
 }
 .chat-bot-icon svg {
     color: #fff;
